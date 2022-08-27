@@ -1,0 +1,128 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cube",
+            "rotation" : [
+                0.29041314125061035,
+                0.885709285736084,
+                0.3463401198387146,
+                0.10596112906932831
+            ],
+            "translation" : [
+                0.02609109692275524,
+                1.6787071228027344,
+                0.0724698081612587
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 375694,
+            "max" : [
+                41.23122024536133,
+                41.011783599853516,
+                42.61334991455078
+            ],
+            "min" : [
+                -43.16458511352539,
+                -43.1182746887207,
+                -44.37991714477539
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 375694,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 375694,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 592896,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4508328,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4508328,
+            "byteOffset" : 4508328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3005552,
+            "byteOffset" : 9016656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2371584,
+            "byteOffset" : 12022208
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 14393792,
+            "uri" : "cube.bin"
+        }
+    ]
+}
